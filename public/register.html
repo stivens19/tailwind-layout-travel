@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/tailwind.css" />
+  </head>
+  <body class="font-Montserrat h-screen">
+    <header class="h-20 bg-gray-500">
+      <nav
+        class="absolute w-full flex justify-between pt-4 px-5 text-white items-center z-10 md:px-28"
+      >
+        <div>
+          <h3 class="font-black text-2xl sm:text-4xl">MiniTravel</h3>
+        </div>
+        <ul class="flex justify-around space-x-5">
+          <li>
+            <svg
+              class="w-7 h-7 sm:w-9 sm:h-9 dark:text-yellow-400"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+              ></path>
+            </svg>
+          </li>
+
+          <li class="hidden sm:inline-block">
+            <svg
+              class="w-6 h-6 sm:w-9 sm:h-9"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              ></path>
+            </svg>
+          </li>
+
+          <li class="hidden sm:inline-block">
+            <svg
+              class="w-6 h-6 sm:w-9 sm:h-9"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="h-3/5 md:h-3/4">
+      <section
+        id="login"
+        class="w-full flex items-center py-3 flex-col h-full dark:bg-tertiary"
+      >
+        <h3
+          class="text-primary font-extrabold text-lg text-center mt-2 sm:text-3xl dark:text-secondary"
+        >
+          Iniciar Sesion
+        </h3>
+        <form class="w-2/3 md:w-1/4">
+          <div>
+            <input type="text" class="Input mt-3" placeholder="Nombres:" />
+          </div>
+          <div>
+            <input type="email" class="Input mt-3" placeholder="Email:" />
+          </div>
+          <div>
+            <input type="password" class="Input mt-3" placeholder="Password:" />
+          </div>
+          <div>
+            <input type="password" class="Input mt-3" placeholder="Confirmar Password:" />
+          </div>
+          <button
+            class="text-white font-black w-full bg-secondary py-1 hover:bg-primary transition-all ease-in-out duration-500 mt-5"
+          >
+            Enviar
+          </button>
+
+          <p class="text-center text-secondary font-black mt-2 dark:text-white">
+            ¿No tienes cuenta? Registrate
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer
+      class="bg-primary w-full text-white flex justify-center h-64 sm:h-52"
+    >
+      <div class="w-4/5 h-auto pb-4">
+        <h2 class="text-center font-black text-2xl mt-5">MiniTravel</h2>
+        <div class="flex justify-center space-x-4 mt-3">
+          <div class="border-4 rounded-full p-1">
+            <svg
+              class="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"
+              ></path>
+            </svg>
+          </div>
+          <div class="border-4 rounded-full p-1">
+            <svg
+              class="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"
+              ></path>
+            </svg>
+          </div>
+          <div class="border-4 rounded-full p-1">
+            <svg
+              class="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"
+              ></path>
+            </svg>
+          </div>
+          <div class="border-4 rounded-full p-1">
+            <svg
+              class="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <p class="text-center text-sm mt-4">
+          &copy; 2022 Todos los derechos reservados
+          <span class="text-secondary">Stivens Espinoza</span>
+        </p>
+      </div>
+    </footer>
+    <div
+      class="flex justify-center space-x-9 h-12 items-center bg-gray-100 fixed bottom-0 w-full sm:hidden dark:bg-tertiary"
+    >
+      <div class="hover:bg-gray-100 p-1 cursor-pointer">
+        <svg
+          class="w-8 h-8 text-gray-300"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+          ></path>
+        </svg>
+      </div>
+      <div class="hover:bg-gray-100 p-1 cursor-pointer">
+        <svg
+          class="w-8 h-8 text-gray-300"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+          ></path>
+        </svg>
+      </div>
+      <div class="hover:bg-gray-100 p-1 cursor-pointer">
+        <svg
+          class="w-8 h-8 text-gray-300"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+  </body>
+</html>
