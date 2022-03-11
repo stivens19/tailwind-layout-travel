@@ -20,7 +20,7 @@
           <h3 class="font-black text-2xl sm:text-4xl">MiniTravel</h3>
         </div>
         <ul class="flex justify-around space-x-5">
-          <li>
+          <li id="toggle-dark">
             <svg
               class="w-7 h-7 sm:w-9 sm:h-9 dark:text-yellow-400"
               fill="none"
@@ -228,6 +228,12 @@
         <svg class="w-8 h-8  text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
       </div>
     </div>
+    <script>
+      const toggle=document.getElementById('toggle-dark');
+      toggle.addEventListener('click',()=>{
+        document.body.classList.toggle('dark');
+      });
+    </script>
   </body>
 </html>
 

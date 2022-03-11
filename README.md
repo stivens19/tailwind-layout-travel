@@ -1,20 +1,13 @@
 <div id="top"></div>
 
-[![Author][Stivens Espinoza Reina]][https://www.stivensespinoza.online/inicio]
-[![CSS][Tailwind]]
-[![Demo][Netlify]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/stivens-espinoza-11954b184/]
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/StivensE19)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stivens-espinoza-11954b184/)
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    ### MiniTravel
-  </a>
 
   <h3 align="center">MiniTravel-Layout-Tailwind</h3>
 
@@ -24,7 +17,7 @@
     <a href="https://www.youtube.com/channel/UCE4fUc_1EDWr4YTj2w_eaWA"><strong>Visite tutorial - ⏰ »</strong></a>
     <br />
     <br />
-    <a href="#">Revisar demo</a>
+    <a href="https://tailwind-travel.netlify.app/">Revisar demo</a>
 
   </p>
 </div>
@@ -59,9 +52,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+![screenshot](https://i.ibb.co/tBj63sh/screenshot.png)
 
-[![Web Mobile][mobile_image]](https://i.ibb.co/tBj63sh/screenshot.png)
-[![Web Mobile][descktop]](https://i.ibb.co/tBj63sh/screenshot.png)
 Este es un layout que servira de template para el proyecto de tienda online con React y Strapi, la tematica del layout es una plataforma de viajes.
 
 Que pantallas tiene ?:
